@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 25.392698 39.38974"
+   height="39.38974mm"
+   width="25.392698mm">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-0.34026246,-0.2588563)"
+     id="layer1">
+    <path
+       id="path12"
+       d="M 13.137656,1.6598071 C 12.787419,22.32372 12.787419,22.32372 12.787419,22.32372 v 0"
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path14"
+       d="m 12.785769,22.322757 c 1.927091,5.7613 3.854236,11.52276 5.781436,17.284384"
+       style="fill:none;stroke:#000000;stroke-width:0.2613821px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path18"
+       d="M 12.787417,22.32372 C 10.80286,28.043918 8.8181915,33.764438 6.8334109,39.485281"
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path34"
+       d="m 13.035072,8.7768151 c 4.202845,3.8526059 8.405675,7.7051979 12.608496,11.5577829"
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path38"
+       d="M 13.035072,8.7768151 C 8.8325262,12.395676 4.6296981,16.01478 0.42658586,19.634129"
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <ellipse
+       style="stroke-width:0.120239"
+       ry="3.3272409"
+       rx="3.5023587"
+       cy="3.5860972"
+       cx="12.958715"
+       id="path48" />
+  </g>
+</svg>

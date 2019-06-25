@@ -1,0 +1,8 @@
+IDEAS
+
+Add a "smart" multithreaded SVG rasteriser.
+    This code would look at the needed SVG-frames for the next frame.
+    Then it would look into memory to see if the needed SVG-frame has already been rasterised.
+    If it has not been rasterised yet then a thread will be tasked to rasterise it and add it to a Dictionary of some sort.
+    After all the needed SVG-frames have been rasterised they can be drawn to the screen in correct order by a main thread.
+    This process should speed up rasterising all needed SVG-frames and thus increase performance thanks to multithreading and skipping SVG-frames which have already been rasterised.

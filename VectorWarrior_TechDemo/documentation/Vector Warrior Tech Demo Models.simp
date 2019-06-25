@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.45" multi-file="no" uid="simpb9d6be29a9bf465bb05cb1ba76617a38">
+  <meta>
+    <name>Vector Warrior Tech Demo Models</name>
+    <authors> Joeri</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>4</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>102</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="UmlGeneralization" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="UmlAssociation" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="UniversalConnector" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>22</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>23</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-b996e15e9fb64eef97fdd8f4270296b5" name="" task-id-sequence="0">
+    <persons>
+      <person id="P5ff3682e2b9e4be5be72e6360355104a">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-2f23f0b4a29140509c5d07eea0cd8968" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Image" tid="" name="Image" description="" />
+      <type id="double" tid="" name="double" description="" />
+      <type id="long" tid="" name="long" description="" />
+      <type id="Hasttable&lt;String, Image[ ]&gt;" tid="" name="Hasttable&lt;String, Image[ ]&gt;" description="" />
+      <type id="Class:di226185897865448374" tid="" name="Entity" description="" class-ref="di226185897865448374" />
+      <type id="AnimationTimer" tid="" name="AnimationTimer" description="" />
+      <type id="ArrayList&lt;String&gt;" tid="" name="ArrayList&lt;String&gt;" description="" />
+      <type id="Canvas" tid="" name="Canvas" description="" />
+      <type id="private" tid="" name="private" description="" />
+      <type id="Class:di691704123697519300" tid="" name="Player" description="" class-ref="di691704123697519300" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p6272d680e51a47daba46887760c1d084_696853741" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>02/20/2018 13:16:10</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p7db6c16af45b414d97a4151fe8ed7f8b_912317256" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="167,0">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/20/2018 13:16:10</creation-date>
+          <change-date>02/20/2018 13:27:59</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di226185897865448374" cid="C001" type="class" name="Entity" style-class="" visibility="package" change-tracking-state="added" creator="P5ff3682e2b9e4be5be72e6360355104a" creation-date="02/20/2018 13:16:16">
+            <style class="default" />
+            <attributes>
+              <attribute id="ae18041f464ac4d9ab6ae0653ce9a587a746" cid="ELEM001" name="defaultImage" creation-date="01/01/0001 00:00:00" type="Image" type-id="Image" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-359e77e7-b812-43e1-a6b2-d44c95c23b86" />
+                </source-codes>
+              </attribute>
+              <attribute id="a9a4fd6f1899843b493a4b2521c266441606" cid="ELEM002" name="x" creation-date="01/01/0001 00:00:00" type="double" type-id="double" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-695f3ed7-5da5-4f32-a0e5-d76300c7bc1e" />
+                </source-codes>
+              </attribute>
+              <attribute id="a64a96934d6124665b37e1d944e9c0a54633" cid="ELEM003" name="y" creation-date="01/01/0001 00:00:00" type="double" type-id="double" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-f609a270-9bea-4393-b7a4-1e0945c5e1c1" />
+                </source-codes>
+              </attribute>
+              <attribute id="a85a3929d23ca48c99a816d4a61ea7216678" cid="ELEM004" name="currentAnimation" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-a931895d-1a1f-402d-bb90-c6b52333d784" />
+                </source-codes>
+              </attribute>
+              <attribute id="aec862d47c68c4d37b69eb0e7b04d1f992" cid="ELEM005" name="currentImage" creation-date="01/01/0001 00:00:00" type="Image" type-id="Image" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-c18d6644-2cd8-4c5b-9456-6f0986d3e879" />
+                </source-codes>
+              </attribute>
+              <attribute id="ac85f3b78d8a944659e6058a4c912a9bd833" cid="ELEM006" name="currentFrameStartTime" creation-date="01/01/0001 00:00:00" type="long" type-id="long" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-55592465-2e06-47dd-bfb3-7e50ebec9ae9" />
+                </source-codes>
+              </attribute>
+              <attribute id="ac23b44e23ab04633b610a78ba3a108cd794" cid="ELEM007" name="currentFrame" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-c66cb395-6c3b-4d21-87ea-92dfd57038f7" />
+                </source-codes>
+              </attribute>
+              <attribute id="a37eb18c61ece43abbe1bb4cc489c855e285" cid="ELEM008" name="isMirrored" creation-date="01/01/0001 00:00:00" type="Boolean" type-id="Uml.Boolean" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-d708d359-771e-4ac5-b1c6-86cdb650bc0c" />
+                </source-codes>
+              </attribute>
+              <attribute id="aa3f06fe30baf4959975651a3e9d2738d429" cid="ELEM009" name="animations" creation-date="01/01/0001 00:00:00" type="Hasttable&lt;String, Image[ ]&gt;" type-id="Hasttable&lt;String, Image[ ]&gt;" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-2c816d69-15a3-4ffb-afdc-9680ac4a8a8d" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o9e5b4fb872e4428a95a545652bf02b4c537" cid="ELEM010" name="Entity" creation-date="01/01/0001 00:00:00" type="Entity" type-id="Class:di226185897865448374" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p69dc89c7546449c3a11e30c80c62c043" name="img" type="Image" type-id="Image" />
+                  <parameter id="p8ba6977a545b4816bb91f1d39e1beaf2" name="x" type="double" type-id="double" />
+                  <parameter id="p9fe8bc3c7f584f75b16aa3f9b3244706" name="y" type="double" type-id="double" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o6cddddca2db147659a4b6f88fa29a800390" cid="ELEM011" name="getImage" creation-date="01/01/0001 00:00:00" type="Image" type-id="Image" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p020d5afe6b074376b0da5a6d2cb796bc" name="currentTime" type="long" type-id="long" />
+                  <parameter id="pcd8774ec16d64289b927279cc45b3db7" name="timeScale" type="double" type-id="double" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o5e89898cbdf14200980dea67640a7b54257" cid="ELEM012" name="setAnimation" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p45ace917278d4dcbb95253721a191d4f" name="animationName" type="String" type-id="Uml.String" />
+                  <parameter id="p1a96cbc4eff04794823647cd1bfa08b0" name="isMirrored" type="Boolean" type-id="Uml.Boolean" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di691704123697519300" cid="C002" type="class" name="Player" style-class="" visibility="package" change-tracking-state="added" creator="P5ff3682e2b9e4be5be72e6360355104a" creation-date="02/20/2018 13:23:02">
+            <style class="default" />
+            <operations>
+              <operation id="o08365e47edb8459d931ec19c1286c756658" cid="ELEM022" name="Player" creation-date="01/01/0001 00:00:00" type="Player" type-id="Class:di691704123697519300" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p06c48a45eb7f4c9497154aa26359adde" name="img" type="Image" type-id="Image" />
+                  <parameter id="p467100afde0e424ca7c233855300192b" name="x" type="double" type-id="double" />
+                  <parameter id="pb450662efe394ef5ab24329400bf1189" name="y" type="double" type-id="double" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di308311631353355339" cid="GNR003" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P5ff3682e2b9e4be5be72e6360355104a" creation-date="02/20/2018 13:24:45" from="di691704123697519300" to="di226185897865448374">
+            <style class="default" />
+          </item>
+          <item id="di990091157419430460" cid="C003" type="class" name="GameWorld" style-class="" visibility="package" change-tracking-state="added" creator="P5ff3682e2b9e4be5be72e6360355104a" creation-date="02/20/2018 13:25:37">
+            <style class="default" />
+            <attributes>
+              <attribute id="ad8d437891a774f25b98df8c2b12eb373750" cid="ELEM020" name="gameWidth" creation-date="01/01/0001 00:00:00" type="double" type-id="double" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-f1015b66-06c5-4217-ad09-3eccaa51125a" />
+                </source-codes>
+              </attribute>
+              <attribute id="a79e7df9d7da2499e8d14ecfb1c76810d839" cid="ELEM021" name="gameHeight" creation-date="01/01/0001 00:00:00" type="double" type-id="double" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-fbafd616-d32d-4b95-9f25-43bceb1d3d30" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di747997122385798763" cid="REL001" type="relationship" name="entities : List&lt;Entity&gt;" style-class="" visibility="package" change-tracking-state="added" creator="P5ff3682e2b9e4be5be72e6360355104a" creation-date="02/20/2018 13:26:04" from="di990091157419430460" to="di226185897865448374">
+            <style class="default" />
+            <relation from="di990091157419430460" to="di226185897865448374">
+              <start-role id="umlar-744ecded-c630-42ec-a955-ffc42e948f13" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-1a49c453-c3ed-4196-b29c-b279ec911a7c" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di884342001195571675" cid="C004" type="class" name="GameManager" style-class="" visibility="package" change-tracking-state="added" creator="P5ff3682e2b9e4be5be72e6360355104a" creation-date="02/20/2018 13:27:13">
+            <style class="default" />
+            <attributes>
+              <attribute id="aa34125dede604f2489903735b5f0ec7d999" cid="ELEM013" name="input" creation-date="01/01/0001 00:00:00" type="ArrayList&lt;String&gt;" type-id="ArrayList&lt;String&gt;" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-81f739c2-e9e2-45d3-8fdb-3af760a5536f" />
+                </source-codes>
+              </attribute>
+              <attribute id="a92619a393de7404b80210176c41f4cb8603" cid="ELEM014" name="canvas" creation-date="01/01/0001 00:00:00" type="Canvas" type-id="Canvas" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-5de16311-0fe4-4d77-b3cd-b3579aac2991" />
+                </source-codes>
+              </attribute>
+              <attribute id="acf98ab459c38445a841dd3c8b980391d727" cid="ELEM015" name="gameloop" creation-date="01/01/0001 00:00:00" type="AnimationTimer" type-id="AnimationTimer" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-ee0d4166-2f73-4588-929d-1fd886f63c09" />
+                </source-codes>
+              </attribute>
+              <attribute id="a757a302c39a84675a1b2638ea355d417635" cid="ELEM016" name="renderWidth" creation-date="01/01/0001 00:00:00" type="double" type-id="double" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-3c113c61-9e1a-4f3f-8410-3595718b6684" />
+                </source-codes>
+              </attribute>
+              <attribute id="af5f43d82015c49d7b9a1d506660594bf123" cid="ELEM017" name="renderHeight" creation-date="01/01/0001 00:00:00" type="double" type-id="double" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-4dd0d4ea-382c-4955-8e37-2a473307d062" />
+                </source-codes>
+              </attribute>
+              <attribute id="ab8762adac22a464e9d477150a20c7965779" cid="ELEM018" name="scaleX" creation-date="01/01/0001 00:00:00" type="double" type-id="double" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-299ee825-1737-46f0-9e17-f8f3570815b2" />
+                </source-codes>
+              </attribute>
+              <attribute id="a38d6aa8fbcc843aca2e1463d381132a9707" cid="ELEM019" name="scaleY" creation-date="01/01/0001 00:00:00" type="double" type-id="double" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-b600f03e-fd2c-4c71-8809-a95934427d27" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di526700990789975033" cid="REL002" type="relationship" name="gameWorld : GameWorld" style-class="" visibility="package" change-tracking-state="added" creator="P5ff3682e2b9e4be5be72e6360355104a" creation-date="02/20/2018 13:27:59" from="di884342001195571675" to="di990091157419430460">
+            <style class="default" />
+            <relation from="di884342001195571675" to="di990091157419430460">
+              <start-role id="umlar-34e59cf1-d293-4c6d-ae89-66de7340a60c" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-ec49e5c5-9b38-458d-a670-185657534b31" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="11cb246a38ee45c3a2698bcde4db59af" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di226185897865448374" iid="c7c084819b654db896fe5b553ab4f9d3" name-style="" creation-date="02/20/2018 13:16:16" order-index="0" type="entity">
+            <layout ax="830" ay="210" awidth="350" aheight="281" x="830" y="210" width="350" height="281" />
+            <class />
+          </item>
+          <item id="di691704123697519300" iid="f54008aab53f44e2b0de68a9315c2a61" name-style="" creation-date="02/20/2018 13:23:02" order-index="1" type="entity">
+            <layout ax="830" ay="540" awidth="350" aheight="100" x="830" y="540" width="350" height="100" />
+            <class />
+          </item>
+          <item id="di308311631353355339" iid="693dc5926f6440ccad73dff7491820a6" name-style="" creation-date="02/20/2018 13:24:45" order-index="2" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1000" y1="540" x2="1001" y2="491" start-border-pos="0.121428571428571" end-border-pos="0.627857142857143" name-position="0,0">
+              <points>
+                <point x="1000" y="540" />
+                <point x="1001" y="491" />
+              </points>
+            </layout>
+            <relation from="di691704123697519300" from-iid="f54008aab53f44e2b0de68a9315c2a61" to="di226185897865448374" to-iid="c7c084819b654db896fe5b553ab4f9d3" />
+          </item>
+          <item id="di990091157419430460" iid="05eb092685c0427facdb6f38b15f7048" name-style="" creation-date="02/20/2018 13:25:37" order-index="3" type="entity">
+            <layout ax="510" ay="210" awidth="170" aheight="160" x="510" y="210" width="170" height="160" />
+            <class />
+          </item>
+          <item id="di747997122385798763" iid="23eaf57332354193a4a057e3a806b42c" name-style="" creation-date="02/20/2018 13:26:04" order-index="4" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="680" y1="290" x2="830" y2="290" start-border-pos="0.375" end-border-pos="0.928571428571429" name-position="0,-20">
+              <points>
+                <point x="680" y="290" />
+                <point x="830" y="290" />
+              </points>
+            </layout>
+            <relation from="di990091157419430460" from-iid="05eb092685c0427facdb6f38b15f7048" to="di226185897865448374" to-iid="c7c084819b654db896fe5b553ab4f9d3" />
+          </item>
+          <item id="di884342001195571675" iid="07caa5c1f8734a1dbf9c1658086b1049" name-style="" creation-date="02/20/2018 13:27:13" order-index="5" type="entity">
+            <layout ax="140" ay="210" awidth="205" aheight="168" x="140" y="210" width="205" height="168" />
+            <class />
+          </item>
+          <item id="di526700990789975033" iid="214e1c188471431bbcdafe23e5c85be7" name-style="" creation-date="02/20/2018 13:27:59" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="345" y1="290" x2="510" y2="290" start-border-pos="0.369047619047619" end-border-pos="0.875" name-position="0,-20">
+              <points>
+                <point x="345" y="290" />
+                <point x="510" y="290" />
+              </points>
+            </layout>
+            <relation from="di884342001195571675" from-iid="07caa5c1f8734a1dbf9c1658086b1049" to="di990091157419430460" to-iid="05eb092685c0427facdb6f38b15f7048" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
